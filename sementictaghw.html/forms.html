@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+<h2>Student Registration Form</h2>
+<p>Please fill in the details below.</p>
+
+<form>
+
+    <fieldset>
+        <legend>Personal Information</legend>
+
+        <label>Full Name:
+            <input type="text" name="fullname">
+        </label><br><br>
+
+        <label>Mobile Number:
+            <input type="tel" name="mobile">
+        </label><br><br>
+
+        <label>Email:
+            <input type="email" name="email">
+        </label><br><br>
+
+        <label>Password:
+            <input type="password" name="password">
+        </label><br><br>
+
+        <label>Age:
+            <input type="number" name="age">
+        </label><br><br>
+
+        <label>Gender:
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+        </label>
+
+    </fieldset>
+
+    <br>
+
+    <label>Date of Birth:
+        <input type="date" name="dob">
+    </label>
+
+    <br><br>
+
+    <fieldset>
+        <legend>Additional Information</legend>
+
+        <label>Interests:
+            <input type="checkbox" name="interest" value="coding"> Coding
+            <input type="checkbox" name="interest" value="sports"> Sports
+            <input type="checkbox" name="interest" value="music"> Music
+        </label>
+
+        <br><br>
+
+        <label>Select Course:
+            <select name="course">
+                <option value="bca">BCA</option>
+                <option value="btech">B.Tech</option>
+                <option value="bba">BBA</option>
+            </select>
+        </label>
+
+    </fieldset>
+
+    <br>
+
+    <label>Upload Resume:
+        <input type="file" name="resume">
+    </label>
+
+    <br><br>
+
+    <label>Why do you want to join this course?</label><br>
+    <textarea name="reason" rows="5" cols="30"></textarea>
+
+    <br><br>
+
+    <input type="submit" value="Register">
+    <input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
