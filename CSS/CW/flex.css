@@ -8,7 +8,7 @@ body {
 
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 21px;
     justify-content: center; /* optional: centers the boxes */
 }
