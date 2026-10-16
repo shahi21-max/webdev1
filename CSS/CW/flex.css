@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 21px;
+    height :fit-content;
     flex-wrap :wrap;
 }
 
