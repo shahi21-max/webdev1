@@ -3,15 +3,16 @@ body {
     background-color: DodgerBlue;
     margin: 0;
     padding: 20px;
-    font-family: sans-serif;
+  
 }
 
 .container {
     display: flex;
-    flex-direction: row;
-    gap: 21px;
-    height :fit-content;
+    flex-direction: column;
+    gap: 0;
     flex-wrap :wrap;
+    height : 1000px;
+     
 }
 
 .container div {
@@ -19,6 +20,13 @@ body {
     margin: 10px ;
     padding: 20px;
     font-size: 30px;
+    height: 40px ;
+    width: 80px ;
     
     
 }
+
+
+
+
+
