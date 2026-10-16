@@ -8,16 +8,16 @@ body {
 
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 21px;
-    justify-content: center; /* optional: centers the boxes */
+    flex-wrap :wrap;
 }
 
 .container div {
     background-color: yellow ;
+    margin: 10px ;
     padding: 20px;
     font-size: 30px;
-    border-radius: 8px;
-    text-align: center;
+    
     
 }
