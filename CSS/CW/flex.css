@@ -1,0 +1,23 @@
+
+body {
+    background-color: DodgerBlue;
+    margin: 0;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+    justify-content: center; /* optional: centers the boxes */
+}
+
+.container div {
+    background-color: yellow ;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 8px;
+    text-align: center;
+    
+}
